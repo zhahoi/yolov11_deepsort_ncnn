@@ -30,15 +30,15 @@
 
 （1）先在Visual Studio新建一个空白工程，将本仓库代码放到该工程中。把本项目中的`.h`和`.cpp`文件分别导入到`头文件`和`源文件`中。操作结果如下：
 
-![img1](docs\img1.png)
+![img1](docs/img1.png)
 
 （2）在工程中载入推理需要依赖的库。
 
-![img2](docs\img2.png)
+![img2](docs/img2.png)
 
-![img3](docs\img3.png)
+![img3](docs/img3.png)
 
-![img4](docs\img4.png)
+![img4](docs/img4.png)
 
 `附加依赖项`添加的库如下：
 
@@ -50,7 +50,7 @@ glslang.lib
 
 （3）选择开始执行，应该在工程的**Release**的目录下可以成功地生成`.exe`文件。将测试图像复制到Release下的路径。
 
-![img5](docs\img5.png)
+![img5](docs/img5.png)
 
 （4）执行推理。
 
@@ -61,17 +61,17 @@ $ YOLOv11-DeepSORT.exe video video_2.mp4   // 推理视频
 $ YOLOv11-DeepSORT.exe video 0   // 调用摄像头推理
 ```
 
-![img7](docs\img7.png)
+![img7](docs/img7.png)
 
 
 
 ### 推理结果
 
-![output_20s](docs\output_20s.gif)
+![output_20s](docs/output_20s.gif)
 
-![output1](docs\output1.gif)
+![output1](docs/output1.gif)
 
-![output](docs\output.gif)
+![output](docs/output.gif)
 
 
 
