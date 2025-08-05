@@ -1,4 +1,4 @@
-#include "DeepSort.h"
+#include "deepsort.h"
 #include <iostream>
 
 DeepSort::DeepSort()
